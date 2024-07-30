@@ -46,7 +46,7 @@ def gen_dummy_competitor(num_products=1000, competitors_pre_product=5,num_weeks=
     competitor_data.to_csv("C:/Users/PAUL/Desktop/PriceFlex/data/competitor_data.csv",index=False)
     print(" The Dummy competitor data created")
     
-    
+
     
 gen_dummy_sales()
 gen_dummy_competitor()
